@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloBottomNavigation</string>
+    <string name="lbl_bottom_navigation">Bottom Navigation</string>
+    <string name="lbl_hello_world">Hello World</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_notification">Notification</string>
+    <string name="lbl_profile">Profile</string>
+</resources>

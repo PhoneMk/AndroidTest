@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityWithTabs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayoutDifferentScreens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@android:color/holo_purple"
+            app:tabIndicatorColor="@android:color/holo_red_dark"
+            app:tabTextColor="@android:color/holo_blue_dark" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerDifferentScreens"
+            android:layout_below="@id/tabLayoutDifferentScreens"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>

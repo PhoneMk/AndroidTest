@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AssingmentRandomImage</string>
+    <string name="btn_randomPic">Random Greeting</string>
+    <string name="txt_ur_ride">Your Ride</string>
+</resources>
